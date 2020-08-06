@@ -1,0 +1,16 @@
+{
+  "companies": [{
+    "_id": "5f29d74797e6c01a2de4da83",
+    "companyUrl": "https://hired-pictures.s3.amazonaws.com/d3ae4a2e02b62b6cc14dffcf217a591c",
+    "name": "lets test this again",
+    "city": "is this right?",
+    "state": "hidhsdsn,dnc",
+    "description": "some des",
+    "founded": "somewhere",
+    "rating": "56",
+    "owner": "5f10bc6fa703ef2887cceac3",
+    "createdAt": "2020-08-04T21:46:47.932Z",
+    "updatedAt": "2020-08-04T21:56:53.416Z",
+    "__v": 0
+  }]
+}

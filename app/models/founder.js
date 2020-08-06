@@ -1,23 +1,21 @@
 const mongoose = require('mongoose')
 
-const foundersSchema = new mongoose.Schema({
+const founderSchema = new mongoose.Schema({
   founderUrl: {
+    type: String
+  },
+  nameFounder: {
     type: String,
     required: true
   },
-  name: {
-    type: String,
-    required: true
-  },
-  title: {
+  titleFounder: {
     type: String,
     required: true
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Company',
-    required: true
+    ref: 'Company'
   }
 })
 
-module.exports = mongoose.model('Founder', foundersSchema)
+module.exports = mongoose.model('Founder', founderSchema)

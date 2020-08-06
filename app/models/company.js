@@ -1,4 +1,6 @@
 const mongoose = require('mongoose')
+const Founder = require('./founder')
+const founderSchema = Founder.schema
 
 const companySchema = new mongoose.Schema({
   companyUrl: {
@@ -25,14 +27,15 @@ const companySchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  review: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Review'
+  },
+  founder: [ founderSchema ],
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
-  },
-  rating: {
-    type: String,
-    require: true
   }
 }, {
   timestamps: true

@@ -1,0 +1,16 @@
+{
+  "company": {
+    "_id": "5f29d74797e6c01a2de4da83",
+    "companyUrl": "https://hired-pictures.s3.amazonaws.com/5102b5323279185dd5f705a3518b96c1",
+    "name": "lara",
+    "city": "Boston",
+    "state": "MA",
+    "description": "holde",
+    "founded": "10/10/1990",
+    "rating": "5",
+    "owner": "5f10bc6fa703ef2887cceac3",
+    "createdAt": "2020-08-04T21:46:47.932Z",
+    "updatedAt": "2020-08-04T21:46:47.932Z",
+    "__v": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "companies": [{
+    "_id": "5f11ce09fd3b6a0b864db383",
+    "companyUrl": "https://hired-pictures.s3.amazonaws.com/e5a16a4f409cd62dc6b085750fea0e45",
+    "name": "lets test this again",
+    "city": "is this right?",
+    "state": "hidhsdsn,dnc",
+    "description": "some des",
+    "founded": "somewhere",
+    "rating": "56",
+    "owner": "5f10bc6fa703ef2887cceac3",
+    "createdAt": "2020-07-17T16:12:57.746Z",
+    "updatedAt": "2020-07-17T16:14:42.345Z",
+    "__v": 0
+  }, {
+    "_id": "5f29d74797e6c01a2de4da83",
+    "companyUrl": "https://hired-pictures.s3.amazonaws.com/5102b5323279185dd5f705a3518b96c1",
+    "name": "lara",
+    "city": "Boston",
+    "state": "MA",
+    "description": "holde",
+    "founded": "10/10/1990",
+    "rating": "5",
+    "owner": "5f10bc6fa703ef2887cceac3",
+    "createdAt": "2020-08-04T21:46:47.932Z",
+    "updatedAt": "2020-08-04T21:46:47.932Z",
+    "__v": 0
+  }]
+}

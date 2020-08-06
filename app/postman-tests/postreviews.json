@@ -1,0 +1,16 @@
+{
+  "_id": "5f2a080797e6c01a2de4daa4",
+  "companyUrl": "https://hired-pictures.s3.amazonaws.com/93bf9b3dff47edc5654ee687d366e3c7",
+  "name": "loop",
+  "city": "Hampton",
+  "state": "NH",
+  "description": "hi",
+  "founded": "5/13/20",
+  "rating": "5",
+  "owner": "5f10bc6fa703ef2887cceac3",
+  "createdAt": "2020-08-05T01:14:47.636Z",
+  "updatedAt": "2020-08-05T20:53:47.095Z",
+  "__v": 0,
+  "review": "5f2b1c5b6d099f0f4da5efe7",
+  "founders": []
+}
