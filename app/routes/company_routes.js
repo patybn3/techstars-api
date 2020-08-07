@@ -109,6 +109,7 @@ router.post('/companies', [upload.single('file'), requireToken], (req, res, next
         name: req.body.name,
         city: req.body.city,
         state: req.body.state,
+        website: req.body.website,
         description: req.body.description,
         founded: req.body.founded,
         owner: req.user.id
@@ -152,6 +153,7 @@ router.patch('/companies/:id', [upload.single('file'), requireToken], removeBlan
             name: req.body.name,
             city: req.body.city,
             state: req.body.state,
+            website: req.body.website,
             description: req.body.description,
             founded: req.body.founded,
             owner: req.user.id

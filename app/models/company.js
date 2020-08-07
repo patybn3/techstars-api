@@ -27,6 +27,10 @@ const companySchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  website: {
+    type: String,
+    required: true
+  },
   review: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Review'
